@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de usuario</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="" alt="Avatar" id="avatar" class="avatar"/>
+        </div>
+        <div class="body">
+            <div class="name">
+                <label for="name"><p>Name:</p></label>
+                <input type="text" id="name" name="name" value=""/>
+            </div>
+            <div class="lastName">
+                <label for="name"><p>Last name:</p></label>
+                <input type="text" id="lastName" name="lastName" value=""/>
+            </div>
+        </div>
+        <div class="footer">
+            <button type="button" onclick="console.log(document.getElementById('name').value)">Update</button>
+        </div>
+    </div>
+    <script src="/js/demo.js"></script>
+</body>
+</html>
